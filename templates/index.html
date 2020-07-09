@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="static/css/style1.css" rel="stylesheet">
+
+    <title>Form</title>
+      
+      
+      
+  </head>
+  <body>
+    <section class="form-07">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="_form_07_main">
+              <div class="row">
+                <div class="col-sm-6 ncv-kl-bn">
+                  <div class="_form_07_main_sub_01">
+                    <div class="form-07-head">
+                      <h2>Ismile Technologies</h2>
+                        <br>
+                      <p>Ismile Technologies is a global IT services company that specializes in designing, implementing, and managing systems that directly contribute to revenue and business success.</p>
+                    </div>
+                    <div class="form-7-social-media">
+                      <ol>
+                        <li><i class="fa fa-facebook"></i></li>
+                        <li><i class="fa fa-twitter"></i></li>
+                        
+                        <li><i class="fa fa-youtube"></i></li>
+                        <li><i class="fa fa-linkedin"></i></li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 cv-kl-bn">
+                  <div class="_pl_nb_df">
+                    <div class="_bg_cs">
+                      <h2>Enter The Following Details to Continue</h2>
+                    </div>
+                    <form action="{{url_for('inner')}}" class="survey-form" >
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <label for="Fname">First Name:</label>
+                  <input for= type="text" name="Fname" class="form-control" id="Fname" placeholder="First Name" required />
+                </div>
+                  <div class="col-md-6 form-group">
+                  <label for="Lname"></label>
+                  <input type="text" name="Lname" class="form-control" id="Lname" placeholder="Last Name" required/>
+                </div>
+                
+              </div>
+                <div class="form-row">
+                
+                  <div class="col-md-4 form-group">
+                  <label for="Age"></label>
+                  <input type="text" name="Age" class="form-control" id="Age" placeholder="Your Age" required/>
+                </div>
+                <div class="col-md-4 form-group">
+                 <label for="City"></label>
+                 <input type="text" name="City" class="form-control" id="City" placeholder="Your City" required/>
+                </div>
+              </div>
+			             <input type="submit" value="Submit Form">
+            </form>
+
+                    
+
+                    <div class="form-group">
+                      <div class="_btn_04">
+                        <!--<a href="{{url_for('inner')}}">Continue</a>-->
+						            
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
